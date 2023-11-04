@@ -7,19 +7,15 @@ export default function App() {
       templateAreas={{
         //https://chakra-ui.com/docs/styled-system/responsive-styles
         base: `"nav" "main"`,
-        lg: `"nav nav" "main aside"`, // 1024px
+        lg: `"nav nav" "aside main"`, // 1024px
       }}>
       <GridItem area="nav">
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside" bg="gold">
-          aside
-        </GridItem>
+        <GridItem area="aside">Aside</GridItem>
       </Show>
-      <GridItem area="main" bg="dodgerblue">
-        main
-      </GridItem>
+      <GridItem area="main">Main</GridItem>
     </Grid>
   );
 }
