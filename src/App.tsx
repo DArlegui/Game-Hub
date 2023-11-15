@@ -9,13 +9,18 @@ export default function App() {
       templateAreas={{
         //https://chakra-ui.com/docs/styled-system/responsive-styles
         base: `"nav" "main"`,
+        // justifyingItems: 'center', // 0px
         lg: `"nav nav" "aside main"`, // 1024px
+      }}
+      templateColumns={{
+        base: '1fr',
+        lg: '200px 1fr',
       }}>
       <GridItem area="nav">
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside">
+        <GridItem area="aside" paddingX={5}>
           <GenreList />
         </GridItem>
       </Show>
