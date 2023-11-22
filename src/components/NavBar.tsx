@@ -1,5 +1,5 @@
 import { HStack, Image } from '@chakra-ui/react';
-import icon from '../assets/icon2.png';
+import icon from '../assets/icon.png';
 import ColorModeSwitch from './ColorModeSwitch';
 
 const NavBar = () => {

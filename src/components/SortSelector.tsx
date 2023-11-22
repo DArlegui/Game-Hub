@@ -8,6 +8,7 @@ interface Props {
 
 const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
   const sortOrders = [
+    //reverse the sort order using ' - '
     { value: '', label: 'Relevance' },
     { value: '-added', label: 'Date Added' },
     { value: 'name', label: 'Name' },
