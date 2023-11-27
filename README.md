@@ -4,7 +4,7 @@
 
 ## Description
 
-A game discorvert app built with React and Chakra UI. It allows users to explore and search for games based on different platforms, genres, and sorting criteria. The app utilizes the RAWG Video Games Database API to fetch game data.
+A game discovery app built with React and Chakra UI. It allows users to explore and search for games based on different platforms, genres, and sorting criteria. The app utilizes the RAWG Video Games Database API to fetch game data.
 
 ## Features
 
