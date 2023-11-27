@@ -45,7 +45,7 @@ export default function App() {
         </GridItem>
       </Show>
       <GridItem area="main">
-        <Box paddingLeft={2}>
+        <Box paddingX="10px">
           <GameHeading gameQuery={gameQuery} />
           <Flex marginBottom={2}>
             <Box marginRight={5}>
